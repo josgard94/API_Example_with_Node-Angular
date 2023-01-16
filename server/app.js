@@ -5,6 +5,8 @@ const cors = require("cors");
 let app = express();
 
 app.use(cors());
+global.dbcontext = {};
+require('./database');
 
 app.use(logger('dev'));
 require('./routes/version')(app);
