@@ -3,7 +3,7 @@ exports.version = async function(req, res){
     let result;
 
     try{
-        result = "1.0.0"
+        result = await dbcontext.version.findAll()
         status = 200;
     }catch (error){
         console.log(error)
