@@ -1,0 +1,13 @@
+{
+    "name": "main",
+    "version": "1.0.0",
+    "description": "general file to scripts and execute API and frontend",
+    "scripts": {
+      "install": "cd client && npm i && cd ../client && npm i",
+      "client": "cd client && npm run start",
+      "server": "cd server && npm run start"
+    },
+    "author": "Edgard Diaz (josgard)",
+    "license": "ISC"
+  }
+  
