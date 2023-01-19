@@ -1,5 +1,7 @@
-This repository is a example of how to create an API Rest with NodeJs, Angular, javascript, MySQL and Sequelize ORM as database manager. 
-On another hand, this repository contains two folders that are described following: 
+This repository is a example of how to create an API Rest with NodeJs, Angular, javascript, MySQL and Sequelize ORM as database manager.
+
+On another hand, this repository contains two folders that are described following:
+ 
  - Client: contains all files of the frontend with Angular JS.
  - Server: contains all files of the backend logic, That is divided  on other folders: 
        - controllers: Is the logic of backend
@@ -7,4 +9,4 @@ On another hand, this repository contains two folders that are described followi
        - routers: contains all  routes enables on the API Rest 
        - database: file that contains settings of database 
 
-You need node 14.19.3 to execute this project.
+You need node 14.19.3 to execute this project. Also, is important mentioned that this project is a base to create a web app using angular and Javascript
