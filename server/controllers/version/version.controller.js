@@ -8,6 +8,5 @@ exports.version = async function(req, res){
     }catch (error){
         console.log(error)
     }
-
-    res.status(status).send({result});
+    res.status(status).send({version: result[0].versionNumber});
 }
